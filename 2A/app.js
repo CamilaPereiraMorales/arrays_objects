@@ -1,6 +1,5 @@
-function getNthElement(array, n) {
-    return array[n];
-   }
+getNthElement((array, n)=> {
+    array[n];
+   });
      
-   module.exports = getNthElement;
    

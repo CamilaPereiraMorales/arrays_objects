@@ -1,9 +1,9 @@
-function areValidCredentials(name, password) {
+areValidCredentials((name, password)=> {
     if (name.length > 4 && password.lenght > 8){
-     return true;
+      true;
    } else {
-     return false; 
+      false; 
    }
-   }
+   });
    
-   module.exports = areValidCredentials;
+   

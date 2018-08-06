@@ -13,8 +13,8 @@ const customerData = {
     },
   };
   
-  function greetCustomer(firstName) {
-    var greeting = '';
+greetCustomer((firstName)=> {
+    let greeting = '';
   
     // your code here
     if (!customerData[firstName]){
@@ -25,8 +25,7 @@ const customerData = {
           greeting = 'Welcome back, ' + firstName + '! ' +  'So glad to see you again!';
    }
   
-    return greeting;
-  }
+     greeting;
+  });
   
-  module.exports = greetCustomer;
   
